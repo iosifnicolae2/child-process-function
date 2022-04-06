@@ -48,6 +48,7 @@ const spawn = ({
         }
         clearTimeout(timeoutId)
     })
+    return child
 }
 
 module.exports.spawn = spawn
